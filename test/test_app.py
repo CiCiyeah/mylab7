@@ -6,8 +6,8 @@ def test_check_type():
     assert check_name("??") == True
     assert check_name("? ?") == True
     assert check_name("? ?") == True
-    assert check_name("? ¨² ") == False
-    assert check_name("ÖÐÎÄ_is_printable") == True
+    assert check_name("? Ãº ") == False
+    assert check_name("ä¸­æ–‡_is_printable") == True
     assert check_name_len("abc") == True
     assert check_name_len("abc abc") == True
     assert check_name_len("??") == True
